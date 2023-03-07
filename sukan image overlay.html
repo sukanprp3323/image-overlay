@@ -1,0 +1,97 @@
+<html lang="en">
+
+<head>
+    <style>
+        .A img {
+            filter: grayscale(200%);
+            border: 10px;
+        }
+        
+        .A img:hover {
+            filter: grayscale(0);
+            filter: gray;
+            transition: .2s;
+            border: 10px;
+        }
+        
+        .B img {
+            transition: 1.2s;
+        }
+        
+        .B img:hover {
+            opacity: 0.5;
+            transform: scale();
+        }
+        
+        .C img {
+            transition: .8s;
+        }
+        
+        .C img:hover {
+            transform: scale(2);
+        }
+        
+        .D img {
+            transition: 1.0s ease-in-out;
+            padding-left: 0.10%;
+            padding-inline-start: 0.10%;
+        }
+        
+        .D img:hover {
+            transform: rotate(-360deg);
+            transition: 1.5s ease;
+            width: 100px;
+        }
+    </style>
+
+    <title>All Hover in Frame</title>
+</head>
+
+<body>
+    <center>
+
+        <h1>this is the task for image over lay </h1>
+        <hr>
+
+        <tr>
+            <table border="2px">
+                <tbody>
+                    <tr>
+                        <th bgcolor="darkpink">
+                            <div class="A">
+                                <p>Grayscale</p>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4en9emUaYK0O_s6-EGCxEXenQdeUQ_NKRl08iC44b&s" width="200px ">
+                            </div>
+                        </th>
+                        <th bgcolor="aqua ">
+                            <p>Fade Hover</p>
+                            <div class="B ">
+                                <img src="https://www.shutterstock.com/image-photo/famous-indian-tourist-landmark-kandariya-260nw-374175955.jpg" width="200px ">
+                            </div>
+                        </th>
+                        <tr>
+                            <th bgcolor="yellow ">
+                                <p>Zoom in</p>
+                                <div class="C ">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT36LY8S3RK_29yXsOq96UMR9oUHSY6JA4QUv_8jaQU&s" width="200px " height="200">
+                                </div>
+                            </th>
+
+
+                            <th bgcolor="lightgreen ">
+                                <p>Zoom Out</p>
+                                <div class="D ">
+                                    <img src="https://images.unsplash.com/photo-1602643163983-ed0babc39797?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGxhY2VzJTIwdG8lMjB2aXNpdCUyMGluJTIwaW5kaWF8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" width="200px ">
+                                </div>
+                            </th>
+                        </tr>
+                    </tr>
+                </tbody>
+            </table>
+            <h1>Note :- put courser on any image for magic</h1>
+
+    </center>
+
+</body>
+
+</html>
